@@ -1,0 +1,60 @@
+Radiosonde
+    Sonde type                                   	RS41-SG
+    Sonde software version                       	2.2.15
+    RS41 calculation version                     	1.7
+    Sonde serial number                          	V1030466
+    Height and pressure in messages is based on  	GPS
+
+Ground equipment
+    System trademark and model                   	MW41
+    Station name                                 	VLMJ_YMC
+    Software version                             	MW41 2.4.0
+    Ground check device                          	RI41
+    Ground check device hardware version         	0x70
+    Ground check device software version         	2.04
+
+Ground check
+    P correction (Pref - P)                      	/////
+    T difference (Tu - T)                        	-0.05 °C 
+    T in-built check temperature difference limit	3.0 °C 
+    U correction (Uref1 - U1)                    	0.04 %Rh
+    U correction (Uref1 - U1) limit              	2.0 %Rh
+    U difference (Uref2 - U2)                    	/////
+    Tref temperature                             	/////
+    Tu temperature                               	21.09 °C
+    T temperature                                	21.14 °C
+    Uref1 humidity                               	0 %Rh
+    U1 humidity                                  	-0.04 %Rh
+    Uref2 humidity                               	/////
+    U2 humidity                                  	/////
+
+Sounding events
+    Terminating altitude                         	0 m
+    Reason for termination                       	ManualStop
+    Reason for sounding failure                  	/////
+    Balloon release time                         	/////
+    Sounding length                              	00:00:00 hh:mm:ss
+    Average ascent rate                          	/////
+    STD level heights                            	
+    Sounding status                              	/////
+
+Surface level observations
+    Surface pressure                             	/////
+    Surface temperature                          	/////
+    Surface humidity                             	/////
+    Surface wind direction                       	/////
+    Surface wind speed                           	/////
+    Sea water temperature                        	/////
+
+Special group input
+    WMO cloud group                              	/////
+    Special group 1                              	/////
+    Special group 2                              	/////
+    ASAP status                                  	/////
+
+Sounding notes
+    Comments                                     	
+
+GPS status
+    Tracked satellite average count              	0.0
+

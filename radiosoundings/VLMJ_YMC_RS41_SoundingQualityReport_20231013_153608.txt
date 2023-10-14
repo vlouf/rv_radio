@@ -1,0 +1,60 @@
+Radiosonde
+    Sonde type                                   	RS41-SG
+    Sonde software version                       	2.2.15
+    RS41 calculation version                     	1.7
+    Sonde serial number                          	V1030474
+    Height and pressure in messages is based on  	GPS
+
+Ground equipment
+    System trademark and model                   	MW41
+    Station name                                 	VLMJ_YMC
+    Software version                             	MW41 2.4.0
+    Ground check device                          	RI41
+    Ground check device hardware version         	0x70
+    Ground check device software version         	2.04
+
+Ground check
+    P correction (Pref - P)                      	/////
+    T difference (Tu - T)                        	-0.18 °C 
+    T in-built check temperature difference limit	3.0 °C 
+    U correction (Uref1 - U1)                    	0.08 %Rh
+    U correction (Uref1 - U1) limit              	2.0 %Rh
+    U difference (Uref2 - U2)                    	/////
+    Tref temperature                             	/////
+    Tu temperature                               	21.88 °C
+    T temperature                                	22.06 °C
+    Uref1 humidity                               	0 %Rh
+    U1 humidity                                  	-0.08 %Rh
+    Uref2 humidity                               	/////
+    U2 humidity                                  	/////
+
+Sounding events
+    Terminating altitude                         	28166 m
+    Reason for termination                       	IncreasingPressure
+    Reason for sounding failure                  	/////
+    Balloon release time                         	15:36:08
+    Sounding length                              	01:47:44 hh:mm:ss
+    Average ascent rate                          	4.4 m/s
+    STD level heights                            	151, 809, 1507, 3071, 5672, 7311, 9306, 10504, 11924, 13775, 16355, 18613, 20745, 24002, 26621
+    Sounding status                              	Ok
+
+Surface level observations
+    Surface pressure                             	1016.5 hPa
+    Surface temperature                          	18.30 °C
+    Surface humidity                             	58.0 %Rh
+    Surface wind direction                       	314°
+    Surface wind speed                           	5.0 m/s
+    Sea water temperature                        	/////
+
+Special group input
+    WMO cloud group                              	/////
+    Special group 1                              	/////
+    Special group 2                              	/////
+    ASAP status                                  	/////
+
+Sounding notes
+    Comments                                     	
+
+GPS status
+    Tracked satellite average count              	10.8
+

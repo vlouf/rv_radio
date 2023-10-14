@@ -1,0 +1,57 @@
+Metadata
+    Sounding ID                                  	37c96eb0-2c04-4358-b6b3-44d09170665b
+    Release point latitude                       	34.147480°S
+    Release point longitude                      	151.684265°E
+    Release point height from sea level          	4 m
+    Balloon release date and time                	2023-10-09T03:26:23
+    Balloon release time                         	03:26:23
+    Balloon release date                         	09/10/23
+    Surface pressure                             	1021.81 hPa
+    Surface temperature                          	18.00 °C
+    Surface relative humidity                    	63.00 %
+    Surface wind speed                           	14.00 m/s
+    Surface wind direction                       	30.00°
+    Sonde type                                   	RS41-SG
+    Sonde serial number                          	V1030466
+    System trademark and model                   	MW41
+    Software version                             	MW41 2.4.0
+    Sonde software version                       	2.2.15
+    Comments                                     	
+    STD level heights                            	
+    P correction (Pref - P)                      	/////
+    U correction (Uref1 - U1)                    	0.02 %Rh
+    T difference (Tu - T)                        	0.06 °C 
+    T in-built check air temperature             	21.62 °C
+    Tu temperature                               	21.68 °C
+    RS41 calculation version                     	1.7
+    Uref1 humidity                               	0.00 %Rh
+    Height and pressure in messages is based on  	GPS
+    Station name                                 	VLMJ_YMC
+    Reason for termination                       	ManualStop
+    Terminating altitude                         	4 m
+    Average ascent rate                          	/////
+    T difference (Tu - T)                        	0.06 °C 
+    P correction (Pref - P)                      	/////
+    U correction (Uref1 - U1)                    	0.02 %Rh
+    Tracked satellite average count              	0.0
+    Surface pressure                             	1021.00 hPa
+    Surface temperature                          	18.00 °C
+    Surface humidity                             	63.00 %Rh
+    Surface wind direction                       	30.00°
+    Surface wind speed                           	14.00 m/s
+    STD level heights                            	
+    T temperature                                	21.62 °C
+    P pressure                                   	/////
+    Ground check device                          	RI41
+    Ground check device software version         	2.04
+    Pref pressure                                	/////
+    Tref temperature                             	/////
+    Uref humidity                                	/////
+    Uref1 humidity                               	0.00 %Rh
+    Reason for sounding failure                  	/////
+    Sounding status                              	Ok
+
+Elapsed time,HeightMSL,      P,Temp,   RH,Dewp, Dir,Speed,GpsHeightMSL,AscRate,     Pc,       Lat,       Lon,VirT,PotTemp,          KeyFlags
+           s,        m,    hPa,  °C,    %,  °C,   °,  m/s,           m,    m/s,    hPa,         °,         °,  °C,     °C,                  
+           0,        4,1021.81,18.0,63.00,10.9,30.0, 14.0,           4,    0.0,1021.81,-34.147480,151.684265,19.4,   16.2,TUdfv             
+

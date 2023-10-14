@@ -1,0 +1,25 @@
+- IDEA GPMMATCH:
+Optical flow of radar data and then offset the x, y coordinates of the ground radar to the time of the GPM overpass.
+The GPM overpass is instantenous, but the radar takes ~5 min to scan the whole atmosphere. Also the advection is not constant for the whole radar domain, but can actually cause convergence/divergence. 
+
+#!/bin/bash
+# export RAINPTL_CONF=./rainptl.conf
+# Put radar details
+radarID=101
+strYr=2020
+lstYr=2020
+strMon=01
+lstMon=01
+strDay=19
+lstDay=19
+echo "Downloading PVOL for radar ID = "$radarID
+for i in `seq -f '%02g' $strDay $lstDay`
+do
+    strDate="${strYr}-${strMon}-"$i"T04:00:00Z"
+    lstDate="${lstYr}-${lstMon}-"$i"T07:59:59Z"
+    echo "Start Date = "$strDate "Last Date = "$lstDate
+    echo "q pvol = site i ${radarID} >= time t $strDate < time t ${lstDate} : file" | rainptl_cmd
+done
+#exit
+# rainptl_cmd
+# q pvol = site i 2 >= time t 2016-11-24T00:00:00Z < time t 2016-11-25T00:00:00Z : file
